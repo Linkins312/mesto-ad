@@ -10,4 +10,23 @@
 @import url('../blocks/popup/popup.css');
 @import url('../blocks/popup/_is-animated/popup_is-animated.css');
 @import url('../blocks/popup/_is-opened/popup_is-opened.css');
-/*Импортируем на уровень выше*/
+
+.popup__error {
+  display: none;
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.popup__error_visible {
+  display: block;
+}
+
+.popup__button_disabled {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.popup__input_type_error {
+  border-color: #ff0000;
+}
